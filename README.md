@@ -8,6 +8,8 @@ template/device group; menu names differ slightly and are noted where relevant.
 > Menu paths reflect SCM at the time of writing and change between releases.
 > Verify against the current Palo Alto Networks docs before executing in production.
 
+> **Proof of value:** track pass/fail for every step in [POV-CHECKLIST.md](POV-CHECKLIST.md).
+
 ---
 
 ## 1. Overview
