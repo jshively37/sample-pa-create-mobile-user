@@ -1,0 +1,4 @@
+# Copy to terraform.tfvars and edit. Do not commit terraform.tfvars.
+idp_entity_id   = "https://sts.windows.net/<tenant-id>/"
+idp_sso_url     = "https://login.microsoftonline.com/<tenant-id>/saml2"
+idp_certificate = "my-idp-signing-cert"

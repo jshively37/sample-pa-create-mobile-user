@@ -170,6 +170,10 @@ curl -s -X POST https://api.sase.paloaltonetworks.com/sse/config/v1/config-versi
 The Terraform provider `PaloAltoNetworks/scm` and the `pan-scm-sdk` Python SDK
 can also manage these objects as code.
 
+**Example Terraform:** see [`terraform/`](terraform/README.md) for a validated example that creates the
+SAML profile, authentication profile, and mobile user security rules (Steps 2 and 5).
+The provider has no GlobalProtect portal/gateway resources, so Steps 1, 3 and 4 remain manual or API-driven.
+
 ## 8. Sign-off
 
 | Role | Name | Date |
